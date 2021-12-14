@@ -9,7 +9,7 @@ class Hangman
   include Display
   include WordGenerator
 
-  def initialize(guessed_letters = [], secret_word = "")
+  def initialize
     @available_letters = ('a'..'z').to_a
     @secret_word = word_generator
     @player = Player.new()

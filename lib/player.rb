@@ -1,8 +1,8 @@
 class Player
   attr_accessor :guessed_letters
 
-  def initialize(guessed_letters = [])
-    @guessed_letters = guessed_letters
+  def initialize
+    @guessed_letters = []
   end
 
   def guess_letter(available_letters)
