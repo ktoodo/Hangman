@@ -1,5 +1,4 @@
 module Display
-
   def hidden_word(secret_word, guessed_letters)
     displayed_word = ""
     secret_word.split("").each do |letter|
@@ -81,7 +80,7 @@ module Display
         |   |
        / \\  |
        _____|
-     ) 
+     )
     end
   end
 end

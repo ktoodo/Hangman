@@ -20,7 +20,7 @@ class Player
   end
 
   def lives(secret_word, guessed_letters)
-    incorrect = guessed_letters.reject { |letter| secret_word.include?(letter)}
+    incorrect = guessed_letters.reject { |letter| secret_word.include?(letter) }
     incorrect.length
   end
 end
